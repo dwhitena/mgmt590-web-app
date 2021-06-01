@@ -7,4 +7,4 @@ COPY . ./
 
 RUN pip install requests streamlit
 
-CMD ["streamlit", "run", "--server.port", "$PORT", "--server.enableCORS", "false", "app.py"]
+CMD ["streamlit", "run", "--server.port", "8080", "--server.enableCORS", "false", "app.py"]
